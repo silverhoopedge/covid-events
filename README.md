@@ -14,4 +14,4 @@ Use this code snippet to change title for postponed or cancelled events
 * Can edit indivdual events 
 * Can use quick edit
 * Can use bulk edit
-* Use one tag per event (cancelled or postponed)
+* Use one tag per event (cancelled -OR- postponed)
