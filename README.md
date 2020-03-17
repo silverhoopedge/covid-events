@@ -5,6 +5,7 @@ Use this code snippet to change title for postponed or cancelled events
 * WP 5.3.2
 * PHP version 7+
 * Not yet tested for recurring series of events (i.e. Pro version of The Events Calendar plugin)
+* Tip: you might need to clear cache so the revised title is displayed
 ## Suggested procedure
 ### Create 2 tags in dashboard for event (lower case, exact spelling match)
 * New tag: postponed
