@@ -1,0 +1,22 @@
+<?php
+
+function myprefix_show_covid($title, $id) {
+
+	if( has_tag('postponed', $id)) {
+		$title = 'POSTPONED-'.$title;
+	}
+	elseif(has_tag('cancelled', $id)){
+          $title = 'CANCELLED-'.$title;
+    }
+	else {
+          $title = ''.$title;
+    }
+	return $title;
+		
+}
+
+if(function_exists('add_filter')) {
+	add_filter('the_title', 'myprefix_show_covid', 10, 2);
+}
+
+?>
