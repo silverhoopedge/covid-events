@@ -8,6 +8,9 @@ function myprefix_show_covid($title, $id) {
 	elseif(has_tag('cancelled', $id)){
           $title = 'CANCELLED-'.$title;
     }
+    elseif(has_tag('virtual', $id)){
+          $title = 'VIRTUAL-'.$title;
+    }
 	else {
           $title = ''.$title;
     }
