@@ -1,5 +1,5 @@
 # covid-events
-Use this code snippet to change title for postponed or cancelled published events
+Use this code snippet to change title for postponed or cancelled or virtual published events
 ## Tested in an enviroment that is using:
 * The Events Calendar plugin 
 * WP 5.3.2
@@ -9,10 +9,11 @@ Use this code snippet to change title for postponed or cancelled published event
 * published events with many tags already in use
 * Tip: you might need to clear cache so the revised title is displayed
 ## Suggested procedure
-### Create 2 tags in WordPress Administration (WP-Admin) dashboard in Events section (lower case, exact spelling match)
+### Create 3 tags in WordPress Administration (WP-Admin) dashboard in Events section (lower case, exact spelling match)
 * New tag: postponed
 * New tag: cancelled
-### Edit Published Events to add the proper tag (cancelled or postponed)
+* New tag: virtual
+### Edit Published Events to add the proper tag (cancelled or postponed or virtual)
 * Can edit each indivdual published event
 * Can use quick edit
 * Can use bulk actions
